@@ -1,13 +1,15 @@
+const { nextui } = require("@nextui-org/react");
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
       Poppins: "Poppins",
     },
     extend: {
       colors: {
-        Teal: "#2F6C6D",
+        Teal: "#14b8a6",
         HummingBird: "#d1f1ee",
         yellow: "#e4d63b",
         Solitude: "#e9e9ea",
@@ -29,5 +31,6 @@ export default {
       md: "1060px",
     },
   },
-  plugins: [require("daisyui")],
+  darkMode: "class",
+  plugins: [require("daisyui"), nextui()],
 };

@@ -4,6 +4,7 @@ import Contact from "./components/container/Contact";
 import Courses from "./components/container/Course/Courses";
 import Footer from "./components/container/Footer";
 import Hero from "./components/container/Hero";
+
 import Teacher from "./components/container/Teacher";
 
 function App() {
