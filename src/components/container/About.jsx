@@ -17,7 +17,7 @@ const About = () => {
             functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.
           </p>
           <a href="https://drive.google.com/file/d/1CsRdnTIaJisa4U9JSj-8CwDm3rN9rGUQ/view?usp=sharing">
-            <button className="py-3 px-6 text-sm border border-solid border-gray hover:border-white rounded-lg font-bold hover:bg-Teal hover:text-white">Curriculum Vitae</button>
+            <button className="py-3 px-6 text-sm border  bg-Teal text-white rounded-lg font-bol">Curriculum Vitae</button>
           </a>
         </div>
       </div>
@@ -26,7 +26,7 @@ const About = () => {
       <div className="grid md:grid-cols-5 sm:grid-cols-4 xs:grid-cols-2 mt-12 gap-8">
         {skills.map((skill) => {
           return (
-            <div key={skill.id} className="flex items-center flex-col bg-white p-8 rounded-md ">
+            <div key={skill.id} className="flex items-center flex-col bg-white p-8 rounded-lg ">
               <img src={skill.img} alt={skill.img} className="h-20 w-20" />
               <p className="text-center mt-4">{skill.title}</p>
             </div>

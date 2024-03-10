@@ -1,11 +1,9 @@
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/container/About";
 import Contact from "./components/container/Contact";
-import Courses from "./components/container/Course/Courses";
 import Footer from "./components/container/Footer";
 import Hero from "./components/container/Hero";
-
-import Teacher from "./components/container/Teacher";
+import Portfolio from "./components/container/Portfolio";
 
 function App() {
   return (
@@ -13,8 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Courses />
-      <Teacher />
+      <Portfolio />
       <Contact />
       <Footer />
     </div>

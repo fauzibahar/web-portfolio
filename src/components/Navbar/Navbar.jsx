@@ -1,4 +1,4 @@
-import { navLinks } from "../../Data";
+import { navLinks } from "../../data/index";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
@@ -23,9 +23,11 @@ const Navbar = () => {
       <div>
         <div className={`${active ? "p-4 transition-all duration-300" : "p-4"} container mx-auto flex items-center justify-between`}>
           <div className="flex items-center gap-4 ">
-            <div className="text-xl text-Teal tracking-wide font-bold">Fauzi Bahar</div>
-            <HiMenuAlt1 className="text-3xl sm:hidden cursor-pointer" onClick={() => setToggle(true)} />
+            <div className="text-xl text-gray tracking-wide font-bold">
+              Fauzi <span className="text-Teal"> Bahar</span>
+            </div>
           </div>
+          <HiMenuAlt1 className="text-3xl sm:hidden cursor-pointer" onClick={() => setToggle(true)} />
           <ul className="sm:flex items-center hidden gap-8">
             {navLinks.map((navLink) => {
               return <NavLink key={navLink.id} {...navLink} />;

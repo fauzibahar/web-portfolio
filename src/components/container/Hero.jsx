@@ -4,7 +4,7 @@ import { FaGithub, FaWhatsapp, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="section" id="home">
-      <div className="md:flex items-center justify-between">
+      <div className="min-h-screen items-center md:flex justify-between">
         <div>
           <div className="font-bold text-xl text-gray  mb-4">Hey There, 👋</div>
           <div className="sm:text-[2.5rem] text-[1.825rem] text-Teal font-bold">I'm Fauzi Bahar</div>
@@ -37,7 +37,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="md:w-[50%]">
+        <div className="md:w-[50%] mt-7">
           <img src={hero} alt="" />
         </div>
       </div>
