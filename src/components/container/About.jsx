@@ -13,10 +13,10 @@ const About = () => {
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] text-Teal mb-5">Fauzi Bahar</div>
           <p className="text-sm text-gray leading-7 mb-4">
-            I am a Full-Stack developer based in Pune, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful,
-            functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.
+            Fresh graduate from Information Technology, STMIK Dharma Negara Bandung, Passionate about developing innovative and efficient solutions using the latest technology. Looking for opportunities to develop skills as a Backend
+            developer in a dynamic and innovative environment.
           </p>
-          <a href="https://drive.google.com/file/d/1CsRdnTIaJisa4U9JSj-8CwDm3rN9rGUQ/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1BSq5XEGRkrU8DacXUYByhnJuKJSeJJ8q/view?usp=sharing">
             <button className="py-3 px-6 text-sm border  bg-Teal text-white rounded-lg font-bol">Curriculum Vitae</button>
           </a>
         </div>
