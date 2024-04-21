@@ -1,4 +1,4 @@
-import about from "../../assets/about.jpg";
+import about from "../../assets/aboutfoto.jpg";
 import { skills } from "../../data/index";
 const About = () => {
   return (
