@@ -20,7 +20,7 @@ const Contact = () => {
             </form>
           </div>
           <div className="p-4 md:w-3/4 sm:row-start-1 ">
-            <img src="/src/assets/undraw_message_sent_re_q2kl.svg" alt="" />
+            <img src="/src/assets/maesageicon.svg" alt="Message Icons" />
           </div>
         </div>
       </motion.form>
