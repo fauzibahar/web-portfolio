@@ -1,3 +1,4 @@
+import massageIcon from "../../assets/maesageicon.svg";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -20,7 +21,7 @@ const Contact = () => {
             </form>
           </div>
           <div className="p-4 md:w-3/4 sm:row-start-1 ">
-            <img src="/src/assets/massage.png" alt="Message Icons" />
+            <img src={massageIcon} alt="Message Icons" />
           </div>
         </div>
       </motion.form>

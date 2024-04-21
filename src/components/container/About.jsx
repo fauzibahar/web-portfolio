@@ -1,4 +1,4 @@
-import about from "../../assets/About2.jpg";
+import about from "../../assets/about.jpg";
 import { skills } from "../../data/index";
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       </h1>
       <div className="grid md:grid-cols-2 gap-8 place-items-center">
         <div className="border-[3px] border-solid border-Teal rounded-lg">
-          <img src={about} alt="" className="p-4" />
+          <img src={about} alt="about" className="p-4" />
         </div>
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] text-Teal mb-5">Fauzi Bahar</div>
