@@ -41,7 +41,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="p-4 md:w-3/4 sm:row-start-1 ">
+        <div className="p-4  md:w-3/4 sm:row-start-1">
           <img src={massageIcon} alt="Message Icons" />
         </div>
       </div>

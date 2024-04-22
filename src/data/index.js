@@ -9,6 +9,7 @@ import tech8 from "../assets/tech8.png";
 import tech9 from "../assets/tech9.png";
 
 import portfolio1 from "../assets/portfolio1.png";
+import portfolio2 from "../assets/portfolio2.png";
 
 export const skills = [
   {
@@ -88,5 +89,12 @@ export const portfolios = [
     title: "Your Notes App",
     desc: "Your Notes App made with nodejs express mongodb and react.",
     link: "https://mern-notes-client.vercel.app/",
+  },
+  {
+    id: 2,
+    image: portfolio2,
+    title: "Book List App",
+    desc: "Book List App made with nodejs express mongodb and react.",
+    link: "https://book-store-client-mu.vercel.app/",
   },
 ];

@@ -23,9 +23,11 @@ const Navbar = () => {
       <div>
         <div className={`${active ? "p-4 transition-all duration-300" : "p-4"} container mx-auto flex items-center justify-between`}>
           <div className="flex items-center gap-4 ">
-            <div className="text-xl text-gray tracking-wide font-bold">
-              Fauzi <span className="text-Teal"> Bahar</span>
-            </div>
+            <a href="#home">
+              <div className="text-xl text-gray tracking-wide font-bold">
+                Fauzi <span className="text-Teal"> Bahar</span>
+              </div>
+            </a>
           </div>
           <HiMenuAlt1 className="text-3xl sm:hidden cursor-pointer" onClick={() => setToggle(true)} />
           <ul className="sm:flex items-center hidden gap-8">
