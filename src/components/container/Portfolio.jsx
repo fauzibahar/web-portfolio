@@ -13,7 +13,7 @@ const Portfolio = () => {
               <img src={portfolio.image} alt={portfolio.image} className="rounded-lg" />
               <div className="mt-4 text-xl font-medium text-Teal">{portfolio.title}</div>
               <div className="my-2 text-sm  text-gray">{portfolio.desc}</div>
-              <a href={portfolio.link}>
+              <a href={portfolio.link} target="_blank">
                 <button className="py-3 px-6 text-sm border  bg-Teal text-white rounded-lg font-bold w-full">Live Demo</button>
               </a>
             </div>

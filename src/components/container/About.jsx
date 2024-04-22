@@ -16,7 +16,7 @@ const About = () => {
             Fresh graduate from Information Technology, STMIK Dharma Negara Bandung, Passionate about developing innovative and efficient solutions using the latest technology. Looking for opportunities to develop skills as a Backend
             developer in a dynamic and innovative environment.
           </p>
-          <a href="https://drive.google.com/file/d/1BSq5XEGRkrU8DacXUYByhnJuKJSeJJ8q/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1BSq5XEGRkrU8DacXUYByhnJuKJSeJJ8q/view?usp=sharing" target="_blank">
             <button className="py-3 px-6 text-sm border  bg-Teal text-white rounded-lg font-bold">Curriculum Vitae</button>
           </a>
         </div>
