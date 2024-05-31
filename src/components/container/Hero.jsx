@@ -15,22 +15,22 @@ const Hero = () => {
             </a>
           </div>
           <div className="mt-6 flex gap-3">
-            <a href="https://github.com/fauzibahar">
+            <a href="https://github.com/fauzibahar" target="_blank">
               <button className="btn btn-square">
                 <FaGithub className="hover:text-Teal" size={25} />
               </button>
             </a>
-            <a href="https://wa.me/6282211329243">
+            <a href="https://wa.me/6282211329243" target="_blank">
               <button className="btn btn-square">
                 <FaWhatsapp className="hover:text-Teal" size={25} />
               </button>
             </a>
-            <a href="https://www.instagram.com/baae.har/">
+            <a href="https://www.instagram.com/baae.har/" target="_blank">
               <button className="btn btn-square">
                 <FaInstagram className="hover:text-Teal" size={25} />
               </button>
             </a>
-            <a href="https://www.linkedin.com/in/fauzi-bahar-67828b245/">
+            <a href="https://www.linkedin.com/in/fauzi-bahar-67828b245/" target="_blank">
               <button className="btn btn-square">
                 <FaLinkedin className="hover:text-Teal" size={25} />
               </button>
