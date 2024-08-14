@@ -13,10 +13,10 @@ const About = () => {
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] text-Teal mb-5">Fauzi Bahar</div>
           <p className="text-sm text-gray leading-7 mb-4">
-            Fresh graduate from Information Technology, STMIK Dharma Negara Bandung, Passionate about developing innovative and efficient solutions using the latest technology. Looking for opportunities to develop skills as a Backend
-            developer in a dynamic and innovative environment.
+            Saya lulusan Teknik Informatika dari STIMK Dharma Negara dengan IPK 3.00. Saat ini, saya bekerja sebagai Web Developer, dengan latar belakang sebagai desainer grafis. Keahlian saya dalam pengembangan web didukung oleh pemahaman
+            yang baik tentang desain, sehingga saya bisa menciptakan situs web yang fungsional dan menarik. Saya mencari peluang untuk terus berkembang dalam pengembangan web.
           </p>
-          <a href="https://drive.google.com/file/d/1GYLYMU1gYH69qc1Jq3Csg47Pkh-EfhUC/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1l2HElTw4a6SKFt30vwueOUPtXjGOBR1j/view?usp=sharing" target="_blank">
             <button className="py-3 px-6 text-sm border  bg-Teal text-white rounded-lg font-bold">Curriculum Vitae</button>
           </a>
         </div>

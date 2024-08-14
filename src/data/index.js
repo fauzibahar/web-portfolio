@@ -7,9 +7,14 @@ import tech6 from "../assets/tech6.png";
 import tech7 from "../assets/tech7.png";
 import tech8 from "../assets/tech8.png";
 import tech9 from "../assets/tech9.png";
+import tech10 from "../assets/tech10.png";
 
 import portfolio1 from "../assets/portfolio1.png";
 import portfolio2 from "../assets/portfolio2.png";
+import portfolio3 from "../assets/portfolio3.png";
+import portfolio4 from "../assets/portfolio4.png";
+import portfolio5 from "../assets/portfolio5.png";
+import portfolio6 from "../assets/portfolio6.png";
 
 export const skills = [
   {
@@ -26,6 +31,11 @@ export const skills = [
     id: 3,
     title: "JavaScript",
     img: tech7,
+  },
+  {
+    id: 8,
+    title: "ReactJs",
+    img: tech8,
   },
   {
     id: 4,
@@ -48,14 +58,14 @@ export const skills = [
     img: tech2,
   },
   {
-    id: 8,
-    title: "TypeScript",
-    img: tech8,
-  },
-  {
     id: 9,
     title: "GitHub",
     img: tech9,
+  },
+  {
+    id: 10,
+    title: "WordPress",
+    img: tech10,
   },
 ];
 
@@ -87,14 +97,42 @@ export const portfolios = [
     id: 1,
     image: portfolio1,
     title: "Your Notes App",
-    desc: "Your Notes App made with nodejs express mongodb and react.",
+    desc: "Your Notes App dibuat dengan nodejs express mongodb dan reactjs.",
     link: "https://mern-notes-client.vercel.app/",
   },
   {
     id: 2,
     image: portfolio2,
     title: "Book List App",
-    desc: "Book List App made with nodejs express mongodb and react.",
+    desc: "Book List App dibuat dengan nodejs express mongodb dan reactjs.",
     link: "https://book-store-client-mu.vercel.app/",
+  },
+  {
+    id: 3,
+    image: portfolio3,
+    title: "Kotakado",
+    desc: "Kotakado dibuat dengan nodejs express mongodb dan reactjs.",
+    link: "https://kotakado.net/",
+  },
+  {
+    id: 4,
+    image: portfolio4,
+    title: "BIAS",
+    desc: "BIAS dibuat dengan nodejs express mongodb dan reactjs.",
+    link: "https://biaadabsolusi.id/",
+  },
+  {
+    id: 5,
+    image: portfolio5,
+    title: "Pondok Kapilih",
+    desc: "Pondok Kapilih dibuat dengan nodejs express mongodb dan reactjs.",
+    link: "https://pondokapilih.com/",
+  },
+  {
+    id: 6,
+    image: portfolio6,
+    title: "FAB",
+    desc: "FAB dibuat dengan nodejs express mongodb dan reactjs.",
+    link: "https://www.fabindonesia.com/",
   },
 ];

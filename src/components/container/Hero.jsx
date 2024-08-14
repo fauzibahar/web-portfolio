@@ -8,7 +8,7 @@ const Hero = () => {
         <div>
           <div className="font-bold text-xl text-gray  mb-4">Hey There, 👋</div>
           <div className="sm:text-[2.5rem] text-[1.825rem] text-Teal font-bold">I'm Fauzi Bahar</div>
-          <p className="text-lg leading-7 text-gray max-w-sm">Backend Developer</p>
+          <p className="text-lg leading-7 text-gray max-w-sm">Web Developer</p>
           <div className="mt-6">
             <a href="#about">
               <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">About Me</button>
